@@ -43,6 +43,7 @@ td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;verti
 <li>Büyüme grafiklerini, gebelik haftasını ve aşı takvimini hesaplamak,</li>
 <li>Aşı, kontrol ve hafta hatırlatmalarını göstermek,</li>
 <li>Kayıtlarını yedeklemek ve aile üyelerinle eşitlemek,</li>
+<li>Lunbi'nin sorularına, bebeğinin kayıtlarına göre yapay zekâ ile cevap verebilmek (isteğe bağlıdır, Ayarlar'dan kapatılabilir),</li>
 <li>Anneler bölümünü çalıştırmak, yanıt geldiğinde sana bildirim göndermek, kötüye kullanımı engellemek.</li>
 </ul>
 <p>Verilerini reklam, profil çıkarma ya da pazarlama için kullanmıyoruz.</p>
@@ -52,6 +53,7 @@ td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;verti
 <li><b>Telefonunda:</b> Bütün kayıtların öncelikle telefonunda saklanır. Giriş yapmadan da kullanabilirsin.</li>
 <li><b>Bulut (Supabase):</b> Giriş yaptığında kayıtların ve fotoğrafların yedeklenmesi ve aile üyelerinle eşitlenmesi için Supabase Inc. altyapısında, şifreli bağlantı üzerinden saklanır. Fotoğraflar herkese açık değildir; yalnızca ailendeki üyeler görebilir.</li>
 <li><b>Google:</b> "Google ile giriş" için Google'ın giriş hizmeti, bildirimler için Google Firebase Cloud Messaging kullanılır.</li>
+<li><b>Yapay zekâ servisleri (Groq, Cloudflare):</b> Giriş yaptıktan sonra Lunbi'ye hazır cevabı olmayan bir soru yazdığında, sorun yapay zekâ servislerine (Groq Inc. ve yedek olarak Cloudflare, Inc.; ABD) gönderilir ve cevap oradan gelir. <b>Ayarlar → Lunbi → "Kayıt özetiyle kişiselleştir"</b> açıkken sorunla birlikte bebeğinin ya da gebeliğinin kısa bir kayıt özeti (bebeğin adı, yaşı, son kilo ve boyu, aşı durumu, günlük beslenme/bez/uyku özeti, son ateş ölçümü, randevular) ve son birkaç mesajın da gönderilir. Fotoğraflar, e-posta adresin ve diğer kayıtların gönderilmez. Bu anahtarı kapattığında yalnızca yazdığın soru gider. Bu servislerde sorun ve özet bizim tarafımızda kaydedilmez; servislerin kendi politikaları geçerlidir.</li>
 <li><b>Aile üyelerin:</b> Ailene davet ettiğin kişiler bebek ve gebelik kayıtlarını ve fotoğrafları görebilir ve düzenleyebilir.</li>
 <li><b>Anneler bölümü:</b> Buradaki soruların ve yanıtların uygulamayı kullanan diğer kişilere görünür. Lütfen buraya kimliğini ya da bebeğini tanıtan bilgiler yazma.</li>
 </ul>
@@ -79,6 +81,7 @@ td,th{border-bottom:1px solid var(--line);padding:9px 10px;text-align:left;verti
 <p>Telefonla sunucu arasındaki bütün iletişim şifrelidir (HTTPS). Sunucudaki verilere yalnızca hesabın ve ailendeki üyeler erişebilir; bu kural veritabanı düzeyinde uygulanır.</p>
 
 <h2>10. Tıbbi uyarı</h2>
+<p><b>Yapay zekâ cevapları:</b> Lunbi'nin yapay zekâ cevapları hata yapabilir, bilgilendirme amaçlıdır ve doktor değerlendirmesinin yerini tutmaz. Lunbi teşhis koymaz, ilaç ya da doz önermez. Acil durumda 112'yi ara.</p>
 <p>Aydan Aya tıbbi tavsiye vermez; içerikler genel bilgilendirme amaçlıdır. Büyüme değerleri Dünya Sağlık Örgütü standartlarına, aşı takvimi ve gebelik izlemleri T.C. Sağlık Bakanlığı rehberlerine dayanır. Bebek gelişim videoları ve görselleri temsilîdir. Sağlıkla ilgili her karar için doktoruna ya da ebene danış.</p>
 
 <h2>11. Değişiklikler</h2>
